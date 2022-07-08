@@ -128,7 +128,7 @@ header span {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap
     
 }
 
@@ -140,6 +140,7 @@ header span {
     margin-top: 50px;
     margin: 30px;
     transition: 0.7s ease;
+    
 }
 .card:hover {
     width: 45em;
@@ -147,5 +148,25 @@ header span {
     transform: scale(1.1)
 }
 .icon {
-    font-size: ;
+    color:#5d005d;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;]
+}
+.info h3 {
+    display: flex;
+    justify-content: center;
+    color:#800080;
+    font-size: 45px;
+    font-weight: 700;
+}
+.info p {
+    display: flex;
+    justify-content: center;
+    font-size: 19px;
+}
+
+.fa-solid {
+    color: #5d005d;
+    font-size: 8em;
 }
