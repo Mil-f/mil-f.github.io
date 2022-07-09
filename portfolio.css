@@ -71,7 +71,7 @@ header span {
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(1657063029779.jpg) no-repeat;
+    background: url(Back.png) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     
@@ -150,8 +150,8 @@ header span {
 }
 .card:hover {
     width: 45em;
-    box-shadow: 0px 5px 30px black;
-    transform: scale(1.1)
+    box-shadow: 0px 5px 30px rgba(1, 1, 1, 60%);
+    transform: scale(1.01)
 }
 .icon {
     color:#5d005d;
