@@ -97,7 +97,7 @@ header span {
     font-weight: bolder;
 }
 .fa-brands {
-    color: white;
+    color: black;
 }
 .fa-twitter {
     margin-left: 10px;
@@ -125,7 +125,7 @@ header span {
 }
 
 #services {
-    padding-bottom: 20em;
+    padding-bottom: 10em;
     
 }
 
@@ -144,7 +144,7 @@ header span {
     padding: 25px;
     border-radius: 10px;
     margin-top: 50px;
-    margin: 30px;
+    margin: 40px;
     transition: 0.7s ease;
     
 }
