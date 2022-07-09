@@ -9,4 +9,24 @@ window.onload = function(){
             cursorChar: "",
         });
     } 
+
+var scroll_pos = 0;
+var scroll_time;
     
+$(window).scroll(function() {
+    clearTimeout(scroll_time);
+    var current_scroll = $(window).scrollTop();
+    
+    if (current_scroll >= $('#main-header').outerHeight()) {
+        if (current_scroll <= scroll_pos) {
+            $('#main-header').removeClass('hidden');    
+        }
+        else {
+            $('#main-header').addClass('hidden');  
+        }
+    }
+    
+    scroll_time = setTimeout(function() {
+        scroll_pos = $(window).scrollTop();
+    }, 100);
+});
