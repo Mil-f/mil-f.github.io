@@ -224,3 +224,68 @@ header span {
 kk {
     justify-content: center;
 }
+
+@media (max-width:1023px) {
+    header {
+        padding: 12px 20px;
+    }
+    .logo {
+        margin-left: -150px;
+    }
+
+    .navigation a{
+        padding-left: 10px;
+    }
+    .title {
+        font-size: 1.8em;
+    }
+    section {
+        padding: 80px 20px;
+    }
+    .main h2 {
+        font-size: 1.6em;
+        margin-left: -5em;
+    }
+    .card {
+        font-size: 1.8em;
+    }
+    .icon {
+        font-size: 0.8em;
+    }
+    .info h3 {
+        font-size: 0.9em;
+    }
+    .social-icons {
+        margin-left: -9em;
+        font-size: 1.2em;
+    }
+    .main h3 {
+        font-size: 1.4em;
+        margin-left: -5em;
+        color: white;
+
+    }
+    .main h2 {
+        font-size: 1.9em;
+        margin-top: 3em;
+    }
+    .kk {
+        background-color: #5d005d;        
+        margin-left: -44.5em;
+        width: 400;
+        height: auto;
+    }
+    .certificate {
+        width: 350px;
+        
+    }
+    #projects h2 {
+        margin-bottom: 1.5em;
+    }
+
+    }
+    #projects {
+        background-color: aliceblue;
+    }
+
+}
